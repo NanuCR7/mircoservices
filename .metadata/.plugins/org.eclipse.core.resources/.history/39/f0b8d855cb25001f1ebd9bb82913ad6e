@@ -1,5 +1,0 @@
-package com.easzybites.accounts.repository;
-
-public interface CustomerRepository {
-
-}

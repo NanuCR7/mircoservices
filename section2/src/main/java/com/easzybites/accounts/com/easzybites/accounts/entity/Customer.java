@@ -13,13 +13,17 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity
-@Getter @Setter @ToString @AllArgsConstructor @NoArgsConstructor
-public class Customer extends BaseEntity{
-	
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
+public class Customer extends BaseEntity {
+
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO,generator = "native")
-	@GenericGenerator(name="native",strategy = "native")
-	private long customerId;
+	@GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+	@GenericGenerator(name = "native", strategy = "native")
+	private Long customerId;
 	private String name;
 	private String email;
 	private String mobileNumber;
