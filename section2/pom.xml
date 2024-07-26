@@ -14,10 +14,11 @@
 	<version>0.0.1-SNAPSHOT</version>	
 	<packaging>pom</packaging>
 	<name>section2</name>
-	<description>Microservices for Loans</description>
+	<description>Microservices Section2</description>
 	<modules>
 		<module>accounts</module>
 		<module>loans</module>
+		<module>cards</module>
 	</modules>
 	
 </project>
