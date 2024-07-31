@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.3.1</version>
+		<relativePath /> 
+	</parent>
+	<groupId>micro.section2</groupId>
+	<artifactId>section2</artifactId>
+	<version>0.0.1-SNAPSHOT</version>	
+	<packaging>pom</packaging>
+	<name>section2</name>
+	<description>Microservices Section2</description>
+	<modules>
+		<module>accounts</module>
+		<module>loans</module>
+		<module>cards</module>
+	</modules>
+	
+</project>
