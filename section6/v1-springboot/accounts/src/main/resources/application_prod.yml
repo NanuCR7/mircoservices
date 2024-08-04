@@ -1,0 +1,16 @@
+#spring.application.name=accounts
+spring:
+ config:
+  activate:
+   on-profile: "prod"
+
+build:
+  version: "1.0"
+accounts:
+ message: "Welcome to EazyBank accounts related Prod APIs "
+ contactDetails:
+  name: "Joe - Production Specialist"
+  email: "Joe@eazybank.com"
+ onCallSupport:
+  - (555) 555-1234
+  - (555) 523-1345

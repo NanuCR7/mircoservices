@@ -1,0 +1,11 @@
+#spring.application.name=accounts
+build:
+  version: "2.0"
+accounts:
+ message: "Welcome to EazyBank accounts related QA APIs "
+ contactDetails:
+  name: "Josef - QA lead"
+  email: "Josef@eazybank.com"
+ onCallSupport:
+  - (555) 555-1234
+  - (555) 523-1345
