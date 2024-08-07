@@ -5,7 +5,16 @@ import java.util.Map;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
 @ConfigurationProperties(prefix = "loans")
-public record LoansContactInfoDto(String message, Map<String, String> contactDetails, List<String> onCallSupport) {
+public class LoansContactInfoDto {
+
+	private String message;
+	private Map<String, String> contactDetails;
+	private List<String> onCallSupport;
 
 }
