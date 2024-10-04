@@ -11,6 +11,6 @@ import com.eazybytes.accounts.dto.CardsDto;
 @FeignClient("cards")
 public interface CardsFeignClient {
 	@GetMapping(value = "/api/fetch", consumes = "application/json")
-	public ResponseEntity<CardsDto> fetchCardDetails(@RequestParam String mobileNumber,
-			@RequestHeader("eazybank-correlation-id") String correlationID);
+	public ResponseEntity<CardsDto> fetchCardDetails(@RequestHeader("eazybank-correlation-id") String correlationID,
+			@RequestParam String mobileNumber);
 }
